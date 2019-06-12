@@ -1,0 +1,93 @@
+/************************** MAIN BACKGROUND ************************/
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-image: url("../../assets/images/background.png");
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+  }
+
+  /************************* HEADER *********************************/
+  .jumbotron{
+      background-color:black;
+  }
+  h1{
+      text-align: center;
+      color:white;
+      font-size: 45px
+  }
+  p{
+      text-align: center;
+      color:white; 
+  }
+  /* GUESSING GAME DIV */
+  .containter {
+      width: 100%;
+      max-width: 950px;
+      margin: 0 auto;
+  }
+  
+  #space {
+      margin-top: 70px;
+  }
+  /***************************** FOOTER ****************************/
+  .footer {
+      background: purple;
+      text-align: center;
+      font-size: 15px;
+      color: whitesmoke;
+      position: fixed; 
+      height:50px;
+      left: 0 ; right: 0; bottom: 0;
+      padding: 1rem;
+  }
+  
+  /*MEDIA QUERIES*/
+  
+  @media screen and (max-width: 980px){
+      #crystalball-image {
+          margin-left: 175px;
+      }
+  
+      #space {
+          margin-left: 165px;
+      }
+  
+      #crystalball2-image {
+          margin-right: 180px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 768px){
+  
+      #space {
+          margin-left: 170px;
+      }
+  
+  }
+  
+  
+  @media only screen and (max-width: 640px){
+  
+      h2 {
+          margin-left: 70px;
+      }
+  
+      #crystalball-image {
+          margin-left: 150px;
+      }
+  
+      #space {
+          margin-left: 145px;
+      }
+  
+      #crystalball2-image {
+          margin-right: 100px;
+      }
+  
+  }
