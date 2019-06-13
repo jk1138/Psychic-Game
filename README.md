@@ -1,7 +1,8 @@
 # Psychic-Game
 ## Option One: Psychic Game (Basic)
 
-![Psychic](Images/1-Psychic.jpg)
+LINK: https://jk1138.github.io/Psychic-Game/
+
 
 1. [Watch the demo](https://youtu.be/qTc45Lox97g).
 
