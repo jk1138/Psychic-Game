@@ -29,10 +29,14 @@ html {
       max-width: 950px;
       margin: 0 auto;
   }
-  
   #space {
-      margin-top: 70px;
+      margin-top: 50px;
   }
+
+  .thumbnail{
+      margin-top: 50px;
+  }
+
   /***************************** FOOTER ****************************/
   .footer {
       background: purple;
@@ -49,7 +53,7 @@ html {
   
   @media screen and (max-width: 980px){
       #crystalball-image {
-          margin-left: 175px;
+          margin-left: 100px;
       }
   
       #space {
@@ -57,7 +61,7 @@ html {
       }
   
       #crystalball2-image {
-          margin-right: 180px;
+          margin-right: 100px;
       }
   
   }
@@ -66,28 +70,30 @@ html {
   @media only screen and (max-width: 768px){
   
       #space {
-          margin-left: 170px;
+          margin-left: 270px;
       }
   
   }
   
   
   @media only screen and (max-width: 640px){
-  
-      h2 {
-          margin-left: 70px;
+      .containter {
+        width:100%;
+        height:100%;
       }
   
       #crystalball-image {
-          margin-left: 150px;
+          margin-left: 0;
+          width: 100%;
       }
-  
       #space {
-          margin-left: 145px;
+          margin-left: 0;
+          width: 100%;
       }
-  
       #crystalball2-image {
-          margin-right: 100px;
+          margin-left: 0;
+          width: 100%;
+          margin-bottom: 200px;
       }
   
   }
